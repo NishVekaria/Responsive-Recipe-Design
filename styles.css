@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Outfit-Black;
+    src: url('./assets/fonts/outfit/static/Outfit-Black.ttf');
+}
+@font-face {
+    font-family: Outfit-Bold;
+    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf');
+}
+@font-face {
+    font-family: Outfit-ExtraBold;
+    src: url('./assets/fonts/outfit/static/Outfit-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Outfit-ExtraLight;
+    src: url('./assets/fonts/outfit/static/Outfit-ExtraLight.ttf');
+}
+@font-face {
+    font-family: Outfit-Light;
+    src: url('./assets/fonts/outfit/static/Outfit-Light.ttf');
+}
+@font-face {
+    font-family: Outfit-Medium;
+    src: url('./assets/fonts/outfit/static/Outfit-Medium.ttf');
+}
+@font-face {
+    font-family: Outfit-Regular;
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+}
+@font-face {
+    font-family: Outfit-SemiBold;
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+}
+@font-face {
+    font-family: Outfit-Thin;
+    src: url('./assets/fonts/outfit/static/Outfit-Thin.ttf');
+}
+@font-face {
+    font-family: Outfit-VariableFont;
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: YoungSerif-Regular;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+:root{
+    --main-heading: YoungSerif-Regular;
+    --sub-heading: Outfit-Bold;
+    --normal-text: Outfit-Light;
+}
+
+html{
+    background-color: #f3e5d8;
+    margin:auto;
+    font-family: var(--normal-text);
+    line-height: 2;
+    
+}
+body{
+    width:70%;
+    margin:7% auto;
+    background-color: #ffffff;
+    padding: 3%;
+    border-radius: 20px;   
+}
+header{
+    width: 100%;
+}
+#omelettePic{
+    width:100%;
+    border-radius: 20px;
+
+}
+#mainHeading{
+    font-family: var(--main-heading);
+    font-size: 3rem;
+    word-spacing: 2%;
+}
+#prepTime{
+    background-color:#fff7fc;
+    padding:5%;
+    border-radius: 40px;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+}
+tr::after{
+    content: attr('hr');
+}
